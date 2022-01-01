@@ -1,0 +1,101 @@
+@charset "UTF-8";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body,
+html {
+    height: 100%;
+    /* background-image: url(../images/background.jpg); */
+    /* backdrop-filter: blur(5px); */
+}
+
+.background-image {
+    /* The image used */
+    background-image: url(../images/BackgroundNASA.PNG);
+    /* Add the blur effect */
+    /* filter: blur(3px); */
+    /* -webkit-filter: blur(8px); */
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    backdrop-filter: 20px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin: 0;
+}
+
+
+/* Position text in the middle of the page/image */
+
+.login-form {
+    font: 16px/2em Lato, serif;
+    /* margin: 20px auto; */
+    max-width: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+form[role=login] {
+    color: #5d5d5d;
+    background: #f2f2f2;
+    padding: 26px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+form[role=login] img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+form[role=login] input,
+form[role=login] button {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+form[role=login]>div {
+    text-align: center;
+}
+
+.form-links {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+.form-links a {
+    color: #fff;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    opacity: 0.5;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+div a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.img-responsive {
+    opacity: 1.5;
+}
