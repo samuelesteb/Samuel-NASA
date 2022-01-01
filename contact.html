@@ -13,10 +13,10 @@
 	<div id="page">
 		<div id="header">
 			<div>
-				<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+				<a href="landing.html" class="logo"><img src="images/logo.png" alt=""></a>
 				<ul id="navigation">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="landing.html">Home</a>
 					</li>
 					<li>
 						<a href="about.html">About</a>
@@ -30,52 +30,63 @@
 						</ul>
 					</li>
 					<li class="menu">
-						<a href="blog.html">Blog</a>
+						<a href="#">Blog</a>
 						<ul class="secondary">
 							<li>
 								<a href="singlepost.html">Single post</a>
 							</li>
 						</ul>
 					</li>
+					<li class="menu">
+                        <a href="#">Others</a>
+                        <ul class="secondary">
+                            <li>
+                                <a href="others.html">Misiones E.</a>
+                            </li>
+                        </ul>
+                    </li>
 					<li class="selected">
 						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-		<div id="body">
-			<div class="header">
-				<div class="contact">
-					<h1>Contacto</h1>
-					<h2>NO DUDE EN PONERSE EN CONTACTO CON NOSOTROS</h2>
-					<form action="index.html">
-						<input type="text" name="Name" value="Nombre" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
-						<input type="text" name="Email Address" value="Correo Electrónico" onblur="this.value=!this.value?'Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
-						<input type="text" name="Subject" value="Sujeto" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
-						<textarea name="message" cols="50" rows="7">Mensaje</textarea>
-						<input type="submit" value="Enviar" id="submit">
-					</form>
+		
+			<div id="body">
+				<div class="header">
+					<div class="contact">
+						<h1>Contacto</h1>
+						<h2>NO DUDE EN PONERSE EN CONTACTO CON NOSOTROS</h2>
+						<form action="https://formspree.io/f/xeqvywao" method="post">
+							<input type="text" name="Name" value="Nombre" onblur="this.value=!this.value?'First Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+							<input type="text" name="Surname" value="Apellido" onblur="this.value=!this.value?'Last Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+							<input type="text" name="Email Address" value="Correo Electrónico" onblur="this.value=!this.value?'Email':this.value;" onfocus="this.select()" onclick="this.value='';">
+							<textarea name="Mensage" cols="50" rows="7">Message</textarea>
+							<input type="submit" value="Enviar" id="submit">
+						</form>
+					</div>
 				</div>
 			</div>
-		</div>
+
 		<div id="footer">
 			<div class="connect">
 				<div>
 					<h1>FOLLOW OUR  MISSIONS ON</h1>
 					<div>
-						<a href="http://freewebsitetemplates.com/go/facebook/" class="facebook">facebook</a>
-						<a href="http://freewebsitetemplates.com/go/twitter/" class="twitter">twitter</a>
-						<a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus">googleplus</a>
-						<a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>
+						<a href="" class="facebook">facebook</a>
+						<a href="" class="twitter">twitter</a>
+						<a href="" class="googleplus">googleplus</a>
+						<a href="" class="pinterest">pinterest</a>
 					</div>
 				</div>
 			</div>
 			<div class="footnote">
 				<div>
-					<p>&copy; 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+					<p>&copy; 2022 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script src="contact.js"></script>
 </body>
 </html>

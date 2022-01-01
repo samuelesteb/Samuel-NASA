@@ -1509,6 +1509,20 @@ img {
 
 /*----------------------------------------footer-styles---------------------------------------*/
 
+.pr{
+    color: #FFF;
+float: left;
+font-family: audiowide-regular-webfont;
+font-size: 33px;
+font-weight: normal;
+line-height: 30px;
+margin: 0;
+padding: 8px 25px 0 0;
+text-align: right;
+text-transform: uppercase;
+width: 775px;
+}
+
 #footer {
     margin: 0;
     padding: 0;
